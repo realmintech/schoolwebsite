@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nbar{
+   background-color: navy;
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 25px;
+   width: 100%;
+   z-index: 1;
+   top:0;
+   position: sticky;
+   justify-content:space-between;
+}
+.mybar a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    padding-left: 100px;
+}
+.mybar a:hover{
+    color: black;
+    background-color: white;
+}
+.background{
+    width: 100%;
+    height: 250px;
+    margin-top: 0;
+    padding-top: 1%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('../images/architecture-g8e9d27de9_1920.jpg');
+}
+.together{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pix{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    position: relative;
+    text-align: center;
+    top:25px;
+}
+.text button{
+    background-color: navy;
+    color: white;
+    border: 1px solid white;
+    height: 25px;
+}
+.course{
+    display: flex;
+    flex-wrap: wrap;
+    top:0;
+}
+.course h1{
+    text-align: center;
+}
+.inter{
+    border: 1px solid wheat;
+    width: 30%;
+    border-radius: 10px;
+    background-color: wheat;
+}
+.degree{
+    border: 1px solid wheat;
+    width: 30%;
+    border-radius: 10px;
+    background-color: wheat;
+}
+.post{
+    border: 1px solid wheat;
+    width: 30%;
+    border-radius: 10px;
+    background-color: wheat;
+}
+#fixed{
+    position: fixed;
+}
+.enroll{
+    width: 90%;
+    height: 250px;
+    margin-top: 0;
+    background-repeat: no-repeat;
+    padding-top: 1%;
+    top:0;
+    background-size: 80% 80%;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('../images/2b089447-7c9a-4276-abf9-32d2929aecd8.jpg');
+}
+.global{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.head{
+    text-align: center;
+}
+.global > p{
+    text-align: center;
+}
+.global >img:hover{
+    background-color: black;
+    opacity: 2;
+}
+.facility{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    margin: 15px;
+}
+.fac{
+    text-align: center;
+}
+.stud{
+    text-align: center;
+}
+.student img{
+    border-radius: 10%;
+}
+.more{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.christ, .aminah{
+    border: 1px solid white;
+    background-color: grey;
+    color: white;
+    margin: 15px;
+    width: 600px;
+    border-radius: 10px;
+}
+.various{
+    text-align: center;
+    position: static;
+    margin:35px ;
+    color: navy;
+}
+.indent h2{
+    text-align: center;
+    margin: 15px;
+}
+.piximg{
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.picimg h2{
+    text-align: center;
+}
+.picimg{
+    width: 50%;
+}
+@media(max-width:368px){
+    *{
+        flex-wrap: wrap;
+        display: flex;
+        text-align: center;
+    }
+    .piximg{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+}
